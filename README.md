@@ -3,7 +3,7 @@ Generates a binary memory based on input parameters of word size and memory entr
 
 C++ Program written in ANSI C. just compile and run.
 
-Program will need parameter of how many bytes per word and how many words there are in memory. 
+Program will need input of how many bits per word and how many words you woud like to generate. 
 
 The generated memory file should be read as BIG ENDIAN. 
 
