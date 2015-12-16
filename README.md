@@ -8,3 +8,5 @@ Program will need parameter of how many bytes per word and how many words there 
 The generated memory file should be read as BIG ENDIAN. 
 
 Output file currently is fixed as a constant to "output.mem"
+
+![alt text](SCREENSHOTS/screenshot_output_hex.png "Hex output for a 32bit Wordsize")
