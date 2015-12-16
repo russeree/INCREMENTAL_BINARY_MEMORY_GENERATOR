@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 	data = (unsigned char*) calloc ((mem_depth*word_bytes), sizeof(unsigned char));
 	data_arr = (unsigned char*) calloc (word_bytes, sizeof(unsigned char));
 	// Generation of data
-	for (int i = 0; i < (mem_depth); i++){
+	for (unsigned long int i = 0; i < (mem_depth); i++){
 		for (int j = 0; j < word_bytes; j++){
 			data_arr[(word_bytes - 1) - j] = (i >> j*8);
 			data[(i * word_bytes) + j] = data_arr[j];	
