@@ -9,4 +9,6 @@ The generated memory file should be read as BIG ENDIAN.
 
 Output file currently is fixed as a constant to "output.mem"
 
+##EXAMPLE
+This is the HEX output of a 32 bit word width. 
 ![alt text](/SCREENSHOTS/screenshot_output_hex.png)
