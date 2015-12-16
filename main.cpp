@@ -1,3 +1,8 @@
+/**
+ * Creatror: Reese Russell
+ * License:  GNU3
+ */ 
+
 #include <iostream>
 #include <fstream>
 
